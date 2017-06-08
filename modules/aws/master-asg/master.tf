@@ -3,7 +3,7 @@ data "aws_ami" "coreos_ami" {
 
   filter {
     name   = "name"
-    values = ["CoreOS-${var.cl_channel}-*"]
+    values = ["CoreOS-stable-1353.7.0-hvm"]
   }
 
   filter {
